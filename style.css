@@ -228,7 +228,7 @@ h4 {
 	text-decoration: none;
 	display: inline-block;
 	font-family: Courier New, monospace;
-	font-size: 1.34vw;
+	font-size: 1.2vw;
 	width: 100%;
 	min-width: 62px;
 }
@@ -311,6 +311,21 @@ h4 {
 	margin-top: 50px;
 }
 
+.cover{
+	text-align: justify;
+	width: 200px;
+	font-size: 11px;
+}
+
+.cover img {
+	display: block;
+	border: 1px solid black;
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+
+
 div.desc {
 	padding: 15px;
 	text-align: center;
@@ -324,13 +339,13 @@ div.desc {
 
 footer {
 	text-align: center;
-	padding: 3px;
+	padding: 0px;
 	background-color: #B995A1;
 	color: white;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	max-height: 75px;
+	max-height: 45px;
 	margin-top: 2px;
 }
 
@@ -378,7 +393,7 @@ div.gallery img {
 	display: grid;
 	grid-template-columns: 15% 85%;
 	gap: 25px;
-	padding: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 10px;
 }
 
 .grid-container3 button {
@@ -388,17 +403,20 @@ div.gallery img {
 
 .grid-container4 {
 	display: grid;
-	grid-template-columns: 18% 10% auto;
+	grid-template-columns:32% 32% 32% auto;
 	gap: 25px;
-	padding: 0px 10px 75px 10px;
+	padding: 40px 10px 0px 10px;
+}
+
+.grid-container5 {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 0px 0px 0px 10px;
 }
 
 .grid-slide {
-	display: grid;
-	grid-template-columns: 50% 48% 2%;
-	gap: 25px;
-	padding: 0px 10px 0px 10px;
 }
+
 
 .makerdiv {
 	display: grid;
@@ -464,6 +482,7 @@ img.maker {
 	height: auto;
 	margin: 60px 10px 10px 5px;
 	border: 0px;
+	float: right;
 }
 
 img.profile {
